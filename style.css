@@ -1,0 +1,118 @@
+
+body{font-family: 'Poppins', sans-serif;
+background-color: whitesmoke;
+}
+
+
+.header{
+    /* position: relative;
+    top: 100px;
+    left: 40px; */
+    margin-left: 50px;
+    background-color: red;
+    margin-top: 100px;
+    padding: 15PX;
+
+}
+.header_tag{
+font-size: 50px;
+
+}
+.first_part_block{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* justify-content: center; */
+    align-items: center;
+    grid-gap: 50px;
+}
+
+
+.top_part{
+     
+    background-color: red;
+    padding: 20px;
+    /* border: 2px solid green; */
+    margin: 30px 20px 20px 40px;
+
+
+}
+.top_part_img{
+    height: 414px;
+    width: 440px;
+    padding: 10px 10px;
+    margin: 70px;
+    /* background-color: green; */
+}
+.button{
+    background-color: #E02C6D; 
+    color: white;
+    text-decoration: none;
+    margin-top: 200px;
+  padding: 15px 30px;
+  border-radius: 205px;
+  font-weight: 700;
+  padding-bottom: 20px;  
+ 
+}
+
+
+  /* middle section------------------ */
+
+  .h2_tag{
+
+   text-align: center;
+    background-color: salmon;
+  }
+    .collection_items{
+        background-color: white;
+        margin: 5px;
+        border: 2px solid white;
+        padding: 20px;
+        /* height: 329px;
+        width: 476px; */
+
+    }
+    .collection_items img{
+        height: 256px;
+        width: 300px;
+    }
+    .middle_part{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 10px;
+        margin: 20px;
+    }
+    .middle_last_link{
+        /* position: relative; */
+         /* background-color: violet; */ 
+        /* top: 10px;
+        right:10px; */
+        /* left: 200px; */
+        text-align:right ;
+        text-decoration: none;
+        margin-top: 20px;
+        padding: 5px;
+        color: #E02C6D;
+        font-weight: 700px;
+        font-size: 20px;
+        
+        
+        
+    }
+
+    footer{
+        background-color: #0A0826;
+        color: #D9DBE1;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        margin-top: 30px;
+        
+    }
+    .h3_tag{
+        color: #FFFFFF;
+    }
+
+
+
+
